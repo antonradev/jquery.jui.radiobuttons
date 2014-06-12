@@ -1,5 +1,5 @@
 {
-    "name": "jquery.jui.radiobuttons",
+    "name": "jui.radiobuttons",
     "title": "jQuery JUI Radiobuttons",
     "description": "Creates accessible radio buttons from HTML span elements. Supports tabindex, focus, check with space key and mouse click",
     "keywords": [
@@ -7,7 +7,7 @@
         "radiobutton",
         "radiobuttons"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Anton Radev",
         "email": "anton.radev@gmail.com",
