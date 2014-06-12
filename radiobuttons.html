@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery JUI Radio buttons Plugin</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/jui.radiobuttons.css">
+    </head>
+
+
+
+    <body>
+        
+        <h1 class="jui-main-heading"><a href="http://jui.uxpd.net">jQuery JUI</a></h1>
+
+        <h2 class="jui-plugin-demo-heading">jQuery JUI RadioButtons - Demo page</h2>
+
+        <div class="plugin-info">
+            <a href="http://plugins.jquery.com/jui.radiobuttons/" rel="nofollow external" target="_blank">http://plugins.jquery.com/jui.radiobuttons/</a>
+            <br>
+            <a href="https://github.com/antonradev/jquery.jui.radiobuttons" rel="nofollow external" target="_blank">https://github.com/antonradev/jquery.jui.radiobuttons</a>
+        </div>
+
+
+        <div class="jui-radiobuttons-container" id="radiobuttonsInit">
+            <h4>RadioButtons with text labels</h4>
+            <span class="jui-radiobutton active" tabindex="0"><label>First selectable option</label></span> 
+            <span class="jui-radiobutton" tabindex="0"><label>Second selectable option</label></span> 
+            <span class="jui-radiobutton" tabindex="0"><label>Third selectable option</label></span> 
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.jui.radiobuttons.js"></script>
+        <script type="text/javascript">
+            // Initializing JUI Checkboxes plugin
+            $("#radiobuttonsInit").juiradiobuttons();
+        </script>
+    </body>
+</html>

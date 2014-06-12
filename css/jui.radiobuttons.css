@@ -1,0 +1,31 @@
+.jui-radiobuttons-container {
+    margin: 10px auto;
+    width: 700px;
+}
+
+.jui-radiobuttons-container .jui-radiobutton {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.jui-radiobuttons-container .jui-radiobutton.active {
+    background-color: #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 2px 2px 9px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: inset 2px 2px 9px rgba(0, 0, 0, 0.11);
+    box-shadow: inset 2px 2px 9px rgba(0, 0, 0, 0.11);
+    background-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA4UlEQVQ4T2NkwARGQKF0IHYCYnmo9AMgvQ+IZwDxBWQtjEgcLiB7MhAnYTEUWWgWkFMAxN9BgjADQJp3ArENAc0w6UNAhgfIEJgBc4mwGd3smUCBDJABID+fJdJmdGWGIANAJqWRacB0kAG3gViFTANuggz4BcSsZBrwiyoG3ALarkqmC26AXABKXaCURw6YCjLAAIjPk6MbqEcflpDIicppQAOyYQZwAjk7gNiOSJccAKrzBOIfyJkJZMgEIhIVyOZikGaQZcgGwCwHhQkoZYKysyJU8B6Q3gvEoJx4CdmVAANHJTqwcSDlAAAAAElFTkSuQmCC');
+}
+.jui-radiobutton label {
+    position: absolute;
+    line-height: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+    outline: none;
+}

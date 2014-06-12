@@ -1,0 +1,39 @@
+{
+    "name": "jquery.jui.radiobuttons",
+    "title": "jQuery JUI Radiobuttons",
+    "description": "Creates accessible radio buttons from HTML span elements. Supports tabindex, focus, check with space key and mouse click",
+    "keywords": [
+        "radio",
+        "radiobutton",
+        "radiobuttons"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Anton Radev",
+        "email": "anton.radev@gmail.com",
+        "url": "https://github.com/antonradev"
+    },
+    "maintainers": [
+    {
+        "name": "Anton Radev",
+        "email": "anton.radev@gmail.com",
+        "url": "http://antonradev.com"
+    }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">1"
+    },
+    "bugs": "https://github.com/antonradev/jquery.jui.radiobuttons/issues",
+    "homepage": "http://jui.uxpd.net/radiobuttons.html",
+    "docs": "https://github.com/antonradev/jquery.jui.radiobuttons",
+    "download": "https://github.com/antonradev/jquery.jui.radiobuttons",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
